@@ -424,7 +424,7 @@ print('Running vis.py script:')
 #     if not os.path.exists(output_dir):
 #         os.makedirs(output_dir)
 # 
-#     output_pdf_path = os.path.join(output_dir, 'full_night_visualization.pdf')
+#     output_pdf_path = os.path.join(output_dir, f'{participant_name}_visualization.pdf')
 # 
 #     with PdfPages(output_pdf_path) as pdf:
 # 
