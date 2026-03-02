@@ -1,0 +1,402 @@
+Participants detected: [0 1 2 3 4]
+X shape: (1769, 961, 3)
+y shape: (1769, 3)
+
+===== Validating on Participant 0 =====
+Train samples: 1415
+Val samples: 354
+Class distribution: [1288  124    3]
+Class weights: {np.int64(0): np.float64(0.3662008281573499), np.int64(1): np.float64(3.803763440860215), np.int64(2): np.float64(157.22222222222223)}
+/usr/local/lib/python3.12/dist-packages/keras/src/layers/convolutional/base_conv.py:113: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+Epoch 1/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 22s 276ms/step - accuracy: 0.5374 - loss: 1.7026 - val_accuracy: 0.9153 - val_loss: 1.0268
+Epoch 2/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 8s 173ms/step - accuracy: 0.6314 - loss: 1.2358 - val_accuracy: 0.9011 - val_loss: 0.9667
+Epoch 3/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 190ms/step - accuracy: 0.6540 - loss: 0.7238 - val_accuracy: 0.7260 - val_loss: 1.0475
+Epoch 4/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 192ms/step - accuracy: 0.6241 - loss: 0.8686 - val_accuracy: 0.1864 - val_loss: 1.1853
+Epoch 5/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 167ms/step - accuracy: 0.6159 - loss: 0.7965 - val_accuracy: 0.1780 - val_loss: 1.1888
+Epoch 6/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 8s 187ms/step - accuracy: 0.5304 - loss: 1.1740 - val_accuracy: 0.6328 - val_loss: 0.9500
+Epoch 7/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 8s 185ms/step - accuracy: 0.4110 - loss: 1.3451 - val_accuracy: 0.5960 - val_loss: 0.9668
+Epoch 8/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 7s 162ms/step - accuracy: 0.6252 - loss: 1.1822 - val_accuracy: 0.7599 - val_loss: 0.7841
+Epoch 9/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 193ms/step - accuracy: 0.6764 - loss: 1.0124 - val_accuracy: 0.6271 - val_loss: 0.8781
+Epoch 10/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 7s 166ms/step - accuracy: 0.6580 - loss: 0.9073 - val_accuracy: 0.7542 - val_loss: 0.6066
+Epoch 11/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 8s 181ms/step - accuracy: 0.6758 - loss: 0.8061 - val_accuracy: 0.4124 - val_loss: 0.9243
+Epoch 12/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 8s 187ms/step - accuracy: 0.5564 - loss: 1.9844 - val_accuracy: 0.7288 - val_loss: 0.7745
+Epoch 13/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 8s 167ms/step - accuracy: 0.6921 - loss: 0.9322 - val_accuracy: 0.7034 - val_loss: 0.6697
+Epoch 14/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 11s 173ms/step - accuracy: 0.5747 - loss: 1.5345 - val_accuracy: 0.8051 - val_loss: 0.5039
+Epoch 15/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 11s 197ms/step - accuracy: 0.6393 - loss: 1.8448 - val_accuracy: 0.7797 - val_loss: 0.5537
+Epoch 16/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 8s 189ms/step - accuracy: 0.7256 - loss: 0.6929 - val_accuracy: 0.4605 - val_loss: 1.1219
+Epoch 17/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 8s 166ms/step - accuracy: 0.6007 - loss: 1.0786 - val_accuracy: 0.6215 - val_loss: 0.8769
+Epoch 18/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 192ms/step - accuracy: 0.6102 - loss: 0.8052 - val_accuracy: 0.7006 - val_loss: 0.6350
+Epoch 19/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 7s 161ms/step - accuracy: 0.6657 - loss: 0.6421 - val_accuracy: 0.7514 - val_loss: 0.6030
+Epoch 20/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 10s 166ms/step - accuracy: 0.6407 - loss: 0.7531 - val_accuracy: 0.8362 - val_loss: 0.4916
+Epoch 21/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 10s 166ms/step - accuracy: 0.6853 - loss: 1.1062 - val_accuracy: 0.7147 - val_loss: 0.5567
+Epoch 22/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 10s 220ms/step - accuracy: 0.6457 - loss: 0.9828 - val_accuracy: 0.7684 - val_loss: 0.5408
+Epoch 23/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 8s 174ms/step - accuracy: 0.6336 - loss: 0.9757 - val_accuracy: 0.6412 - val_loss: 0.7806
+Epoch 24/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 8s 176ms/step - accuracy: 0.6507 - loss: 0.6293 - val_accuracy: 0.5932 - val_loss: 0.8630
+Epoch 25/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 11s 196ms/step - accuracy: 0.6199 - loss: 0.8593 - val_accuracy: 0.7684 - val_loss: 0.5352
+Epoch 26/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 10s 201ms/step - accuracy: 0.6719 - loss: 0.8121 - val_accuracy: 0.7825 - val_loss: 0.5250
+Epoch 27/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 8s 169ms/step - accuracy: 0.6824 - loss: 0.9975 - val_accuracy: 0.6808 - val_loss: 0.6325
+12/12 ━━━━━━━━━━━━━━━━━━━━ 1s 44ms/step
+
+Fold Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.96      0.88      0.92       328
+           1       0.24      0.23      0.24        26
+           2       0.00      0.00      0.00         0
+
+    accuracy                           0.84       354
+   macro avg       0.40      0.37      0.38       354
+weighted avg       0.90      0.84      0.87       354
+
+Confusion Matrix:
+[[290  19  19]
+ [ 13   6   7]
+ [  0   0   0]]
+
+===== Validating on Participant 1 =====
+Train samples: 1415
+Val samples: 354
+Class distribution: [1292  120    3]
+Class weights: {np.int64(0): np.float64(0.3650670794633643), np.int64(1): np.float64(3.9305555555555554), np.int64(2): np.float64(157.22222222222223)}
+Epoch 1/50
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/usr/local/lib/python3.12/dist-packages/keras/src/layers/convolutional/base_conv.py:113: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+45/45 ━━━━━━━━━━━━━━━━━━━━ 11s 172ms/step - accuracy: 0.6811 - loss: 1.7005 - val_accuracy: 0.9153 - val_loss: 0.9901
+Epoch 2/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 194ms/step - accuracy: 0.6382 - loss: 1.5482 - val_accuracy: 0.9153 - val_loss: 0.9167
+Epoch 3/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 10s 198ms/step - accuracy: 0.6934 - loss: 1.2319 - val_accuracy: 0.9153 - val_loss: 0.6909
+Epoch 4/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 8s 169ms/step - accuracy: 0.5423 - loss: 1.6458 - val_accuracy: 0.9068 - val_loss: 0.7728
+Epoch 5/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 199ms/step - accuracy: 0.5386 - loss: 1.0017 - val_accuracy: 0.9011 - val_loss: 0.7075
+Epoch 6/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 196ms/step - accuracy: 0.6507 - loss: 1.0885 - val_accuracy: 0.9068 - val_loss: 0.6048
+Epoch 7/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 172ms/step - accuracy: 0.7707 - loss: 0.7402 - val_accuracy: 0.8192 - val_loss: 0.8469
+Epoch 8/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 195ms/step - accuracy: 0.5270 - loss: 1.0479 - val_accuracy: 0.8220 - val_loss: 0.7338
+Epoch 9/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 194ms/step - accuracy: 0.6230 - loss: 0.7719 - val_accuracy: 0.3164 - val_loss: 1.1339
+Epoch 10/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 8s 167ms/step - accuracy: 0.3867 - loss: 1.3106 - val_accuracy: 0.6045 - val_loss: 0.9026
+Epoch 11/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 195ms/step - accuracy: 0.5765 - loss: 0.9072 - val_accuracy: 0.7571 - val_loss: 0.6132
+Epoch 12/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 10s 192ms/step - accuracy: 0.6311 - loss: 1.0536 - val_accuracy: 0.7486 - val_loss: 0.5984
+Epoch 13/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 7s 160ms/step - accuracy: 0.6368 - loss: 0.7020 - val_accuracy: 0.5706 - val_loss: 0.9649
+Epoch 14/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 8s 188ms/step - accuracy: 0.6518 - loss: 0.8240 - val_accuracy: 0.6186 - val_loss: 0.8638
+Epoch 15/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 193ms/step - accuracy: 0.6519 - loss: 0.8778 - val_accuracy: 0.8051 - val_loss: 0.5642
+Epoch 16/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 161ms/step - accuracy: 0.6095 - loss: 0.8994 - val_accuracy: 0.7853 - val_loss: 0.5420
+Epoch 17/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 8s 189ms/step - accuracy: 0.6829 - loss: 0.6990 - val_accuracy: 0.5537 - val_loss: 1.0259
+Epoch 18/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 10s 188ms/step - accuracy: 0.5362 - loss: 1.0659 - val_accuracy: 0.7260 - val_loss: 0.6503
+Epoch 19/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 8s 169ms/step - accuracy: 0.6615 - loss: 1.2127 - val_accuracy: 0.6893 - val_loss: 0.6408
+Epoch 20/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 194ms/step - accuracy: 0.6344 - loss: 0.7504 - val_accuracy: 0.5113 - val_loss: 1.0884
+Epoch 21/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 8s 185ms/step - accuracy: 0.6162 - loss: 0.8282 - val_accuracy: 0.5932 - val_loss: 0.7887
+Epoch 22/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 165ms/step - accuracy: 0.6038 - loss: 0.7711 - val_accuracy: 0.6667 - val_loss: 0.8056
+Epoch 23/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 10s 164ms/step - accuracy: 0.6616 - loss: 0.7292 - val_accuracy: 0.6667 - val_loss: 0.6934
+12/12 ━━━━━━━━━━━━━━━━━━━━ 1s 73ms/step
+
+Fold Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.96      0.80      0.87       324
+           1       0.24      0.67      0.35        30
+           2       0.00      0.00      0.00         0
+
+    accuracy                           0.79       354
+   macro avg       0.40      0.49      0.41       354
+weighted avg       0.90      0.79      0.83       354
+
+Confusion Matrix:
+[[258  64   2]
+ [ 10  20   0]
+ [  0   0   0]]
+
+===== Validating on Participant 2 =====
+Train samples: 1415
+Val samples: 354
+Class distribution: [1294  119    2]
+Class weights: {np.int64(0): np.float64(0.3645028335909325), np.int64(1): np.float64(3.9635854341736696), np.int64(2): np.float64(235.83333333333334)}
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/usr/local/lib/python3.12/dist-packages/keras/src/layers/convolutional/base_conv.py:113: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+Epoch 1/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 11s 171ms/step - accuracy: 0.5006 - loss: 2.0735 - val_accuracy: 0.9011 - val_loss: 0.9796
+Epoch 2/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 188ms/step - accuracy: 0.6700 - loss: 1.1134 - val_accuracy: 0.9011 - val_loss: 0.9001
+Epoch 3/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 8s 189ms/step - accuracy: 0.6550 - loss: 1.5321 - val_accuracy: 0.1412 - val_loss: 1.0546
+Epoch 4/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 8s 168ms/step - accuracy: 0.6154 - loss: 0.9586 - val_accuracy: 0.8927 - val_loss: 0.8689
+Epoch 5/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 11s 181ms/step - accuracy: 0.5130 - loss: 1.1906 - val_accuracy: 0.1412 - val_loss: 0.9119
+Epoch 6/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 11s 190ms/step - accuracy: 0.5284 - loss: 0.8583 - val_accuracy: 0.8531 - val_loss: 0.7192
+Epoch 7/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 8s 187ms/step - accuracy: 0.6549 - loss: 1.1258 - val_accuracy: 0.8785 - val_loss: 0.8968
+Epoch 8/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 8s 167ms/step - accuracy: 0.4753 - loss: 0.7888 - val_accuracy: 0.8729 - val_loss: 0.7622
+Epoch 9/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 11s 192ms/step - accuracy: 0.4914 - loss: 0.7222 - val_accuracy: 0.8475 - val_loss: 0.6822
+Epoch 10/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 194ms/step - accuracy: 0.5186 - loss: 0.7499 - val_accuracy: 0.8023 - val_loss: 0.6173
+Epoch 11/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 7s 163ms/step - accuracy: 0.5226 - loss: 2.0953 - val_accuracy: 0.8136 - val_loss: 0.7368
+Epoch 12/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 11s 171ms/step - accuracy: 0.5558 - loss: 1.3464 - val_accuracy: 0.7627 - val_loss: 0.6263
+Epoch 13/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 11s 194ms/step - accuracy: 0.6325 - loss: 1.1804 - val_accuracy: 0.8588 - val_loss: 0.5547
+Epoch 14/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 190ms/step - accuracy: 0.6835 - loss: 0.5402 - val_accuracy: 0.7090 - val_loss: 0.6324
+Epoch 15/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 168ms/step - accuracy: 0.6120 - loss: 0.6071 - val_accuracy: 0.6073 - val_loss: 0.8099
+Epoch 16/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 192ms/step - accuracy: 0.5692 - loss: 0.9032 - val_accuracy: 0.7994 - val_loss: 0.5827
+Epoch 17/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 10s 197ms/step - accuracy: 0.6828 - loss: 0.5511 - val_accuracy: 0.7542 - val_loss: 0.6352
+Epoch 18/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 8s 167ms/step - accuracy: 0.6193 - loss: 0.5953 - val_accuracy: 0.7994 - val_loss: 0.5342
+Epoch 19/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 188ms/step - accuracy: 0.6961 - loss: 0.4821 - val_accuracy: 0.6102 - val_loss: 0.7182
+Epoch 20/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 197ms/step - accuracy: 0.5685 - loss: 0.5983 - val_accuracy: 0.8079 - val_loss: 0.5146
+Epoch 21/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 8s 169ms/step - accuracy: 0.7247 - loss: 1.0464 - val_accuracy: 0.7514 - val_loss: 0.5789
+Epoch 22/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 191ms/step - accuracy: 0.6736 - loss: 0.5510 - val_accuracy: 0.6441 - val_loss: 0.6970
+Epoch 23/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 189ms/step - accuracy: 0.6803 - loss: 0.4816 - val_accuracy: 0.6695 - val_loss: 0.6249
+Epoch 24/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 167ms/step - accuracy: 0.6726 - loss: 0.4852 - val_accuracy: 0.7260 - val_loss: 0.5741
+Epoch 25/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 200ms/step - accuracy: 0.6360 - loss: 0.4233 - val_accuracy: 0.7006 - val_loss: 0.5926
+Epoch 26/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 192ms/step - accuracy: 0.6176 - loss: 0.5301 - val_accuracy: 0.4040 - val_loss: 1.0260
+Epoch 27/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 8s 170ms/step - accuracy: 0.5605 - loss: 0.5685 - val_accuracy: 0.6723 - val_loss: 0.6826
+12/12 ━━━━━━━━━━━━━━━━━━━━ 1s 46ms/step
+
+Fold Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.93      0.86      0.89       322
+           1       0.19      0.29      0.23        31
+           2       0.00      0.00      0.00         1
+
+    accuracy                           0.81       354
+   macro avg       0.37      0.38      0.38       354
+weighted avg       0.87      0.81      0.83       354
+
+Confusion Matrix:
+[[277  38   7]
+ [ 19   9   3]
+ [  1   0   0]]
+
+===== Validating on Participant 3 =====
+Train samples: 1415
+Val samples: 354
+Class distribution: [1295  118    2]
+Class weights: {np.int64(0): np.float64(0.3642213642213642), np.int64(1): np.float64(3.9971751412429377), np.int64(2): np.float64(235.83333333333334)}
+Epoch 1/50
+/usr/local/lib/python3.12/dist-packages/keras/src/layers/convolutional/base_conv.py:113: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+45/45 ━━━━━━━━━━━━━━━━━━━━ 12s 181ms/step - accuracy: 0.4838 - loss: 1.1772 - val_accuracy: 0.1130 - val_loss: 1.0234
+Epoch 2/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 13s 233ms/step - accuracy: 0.4604 - loss: 1.1286 - val_accuracy: 0.7401 - val_loss: 0.9377
+Epoch 3/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 18s 193ms/step - accuracy: 0.4750 - loss: 0.7047 - val_accuracy: 0.5791 - val_loss: 0.8303
+Epoch 4/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 8s 168ms/step - accuracy: 0.5688 - loss: 0.7727 - val_accuracy: 0.6073 - val_loss: 0.7703
+Epoch 5/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 10s 164ms/step - accuracy: 0.5230 - loss: 1.6030 - val_accuracy: 0.8616 - val_loss: 0.6708
+Epoch 6/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 12s 196ms/step - accuracy: 0.5792 - loss: 1.1391 - val_accuracy: 0.5226 - val_loss: 0.7517
+Epoch 7/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 191ms/step - accuracy: 0.5800 - loss: 0.9787 - val_accuracy: 0.6638 - val_loss: 0.7820
+Epoch 8/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 8s 168ms/step - accuracy: 0.5070 - loss: 1.1243 - val_accuracy: 0.5169 - val_loss: 0.9351
+Epoch 9/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 11s 177ms/step - accuracy: 0.4690 - loss: 1.4844 - val_accuracy: 0.3983 - val_loss: 0.9059
+Epoch 10/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 11s 190ms/step - accuracy: 0.4241 - loss: 0.8867 - val_accuracy: 0.7938 - val_loss: 0.6775
+Epoch 11/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 201ms/step - accuracy: 0.5779 - loss: 0.9622 - val_accuracy: 0.7401 - val_loss: 0.6864
+Epoch 12/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 8s 171ms/step - accuracy: 0.5870 - loss: 0.8600 - val_accuracy: 0.7910 - val_loss: 0.7182
+12/12 ━━━━━━━━━━━━━━━━━━━━ 1s 44ms/step
+
+Fold Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.93      0.92      0.92       321
+           1       0.28      0.34      0.31        32
+           2       0.00      0.00      0.00         1
+
+    accuracy                           0.86       354
+   macro avg       0.41      0.42      0.41       354
+weighted avg       0.87      0.86      0.87       354
+
+Confusion Matrix:
+[[294  27   0]
+ [ 21  11   0]
+ [  0   1   0]]
+
+===== Validating on Participant 4 =====
+Train samples: 1416
+Val samples: 353
+Class distribution: [1295  119    2]
+Class weights: {np.int64(0): np.float64(0.3644787644787645), np.int64(1): np.float64(3.966386554621849), np.int64(2): np.float64(236.0)}
+Epoch 1/50
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py:1565: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/usr/local/lib/python3.12/dist-packages/keras/src/layers/convolutional/base_conv.py:113: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+45/45 ━━━━━━━━━━━━━━━━━━━━ 12s 176ms/step - accuracy: 0.6851 - loss: 0.8442 - val_accuracy: 0.7960 - val_loss: 0.8983
+Epoch 2/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 190ms/step - accuracy: 0.4340 - loss: 1.0107 - val_accuracy: 0.3144 - val_loss: 0.9495
+Epoch 3/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 8s 171ms/step - accuracy: 0.5724 - loss: 1.0193 - val_accuracy: 0.0878 - val_loss: 1.0082
+Epoch 4/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 10s 163ms/step - accuracy: 0.4959 - loss: 1.2297 - val_accuracy: 0.7309 - val_loss: 0.9432
+Epoch 5/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 193ms/step - accuracy: 0.6182 - loss: 0.9425 - val_accuracy: 0.3003 - val_loss: 0.9706
+Epoch 6/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 8s 183ms/step - accuracy: 0.4799 - loss: 0.7822 - val_accuracy: 0.1331 - val_loss: 1.2643
+Epoch 7/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 165ms/step - accuracy: 0.2869 - loss: 1.0926 - val_accuracy: 0.7280 - val_loss: 0.8318
+Epoch 8/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 193ms/step - accuracy: 0.3773 - loss: 1.0896 - val_accuracy: 0.7564 - val_loss: 0.7884
+Epoch 9/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 192ms/step - accuracy: 0.6168 - loss: 0.7493 - val_accuracy: 0.8187 - val_loss: 0.6523
+Epoch 10/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 168ms/step - accuracy: 0.6157 - loss: 1.0506 - val_accuracy: 0.7649 - val_loss: 0.7614
+Epoch 11/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 10s 171ms/step - accuracy: 0.7199 - loss: 1.1386 - val_accuracy: 0.8074 - val_loss: 0.5500
+Epoch 12/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 200ms/step - accuracy: 0.6064 - loss: 1.7944 - val_accuracy: 0.7025 - val_loss: 0.7638
+Epoch 13/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 8s 185ms/step - accuracy: 0.5961 - loss: 0.8717 - val_accuracy: 0.7507 - val_loss: 0.6436
+Epoch 14/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 168ms/step - accuracy: 0.5752 - loss: 1.4903 - val_accuracy: 0.8045 - val_loss: 0.6365
+Epoch 15/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 209ms/step - accuracy: 0.7038 - loss: 0.7956 - val_accuracy: 0.4363 - val_loss: 1.1467
+Epoch 16/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 191ms/step - accuracy: 0.4570 - loss: 0.8216 - val_accuracy: 0.7195 - val_loss: 0.7033
+Epoch 17/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 8s 171ms/step - accuracy: 0.5680 - loss: 1.1554 - val_accuracy: 0.8215 - val_loss: 0.5721
+Epoch 18/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 196ms/step - accuracy: 0.7211 - loss: 0.9820 - val_accuracy: 0.8329 - val_loss: 0.5279
+Epoch 19/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 10s 193ms/step - accuracy: 0.7500 - loss: 0.9902 - val_accuracy: 0.5382 - val_loss: 0.8410
+Epoch 20/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 8s 170ms/step - accuracy: 0.4583 - loss: 0.8882 - val_accuracy: 0.5779 - val_loss: 0.9165
+Epoch 21/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 200ms/step - accuracy: 0.5438 - loss: 0.7460 - val_accuracy: 0.7819 - val_loss: 0.5421
+Epoch 22/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 192ms/step - accuracy: 0.6097 - loss: 0.8993 - val_accuracy: 0.5524 - val_loss: 0.9648
+Epoch 23/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 8s 167ms/step - accuracy: 0.6235 - loss: 0.7540 - val_accuracy: 0.7280 - val_loss: 0.6553
+Epoch 24/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 12s 197ms/step - accuracy: 0.5304 - loss: 1.8293 - val_accuracy: 0.7904 - val_loss: 0.4619
+Epoch 25/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 201ms/step - accuracy: 0.6768 - loss: 1.0448 - val_accuracy: 0.5977 - val_loss: 0.8841
+Epoch 26/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 8s 172ms/step - accuracy: 0.5792 - loss: 0.7738 - val_accuracy: 0.6091 - val_loss: 0.8117
+Epoch 27/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 195ms/step - accuracy: 0.6401 - loss: 0.8225 - val_accuracy: 0.4986 - val_loss: 1.0704
+Epoch 28/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 10s 195ms/step - accuracy: 0.6675 - loss: 0.7954 - val_accuracy: 0.7365 - val_loss: 0.6982
+Epoch 29/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 8s 167ms/step - accuracy: 0.6211 - loss: 0.9127 - val_accuracy: 0.7564 - val_loss: 0.5151
+Epoch 30/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 10s 173ms/step - accuracy: 0.6788 - loss: 0.8570 - val_accuracy: 0.7025 - val_loss: 0.7116
+Epoch 31/50
+45/45 ━━━━━━━━━━━━━━━━━━━━ 9s 201ms/step - accuracy: 0.6438 - loss: 0.9646 - val_accuracy: 0.5637 - val_loss: 0.8438
+12/12 ━━━━━━━━━━━━━━━━━━━━ 1s 45ms/step
+
+Fold Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.93      0.83      0.88       321
+           1       0.18      0.39      0.25        31
+           2       0.00      0.00      0.00         1
+
+    accuracy                           0.79       353
+   macro avg       0.37      0.41      0.38       353
+weighted avg       0.86      0.79      0.82       353
+
+Confusion Matrix:
+[[267  53   1]
+ [ 19  12   0]
+ [  0   1   0]]
+
+===== FINAL LOPO RESULTS =====
+              precision    recall  f1-score   support
+
+           0       0.94      0.86      0.90      1616
+           1       0.22      0.39      0.28       150
+           2       0.00      0.00      0.00         3
+
+    accuracy                           0.82      1769
+   macro avg       0.39      0.41      0.39      1769
+weighted avg       0.88      0.82      0.84      1769
+
+Confusion Matrix:
+[[1386  201   29]
+ [  82   58   10]
+ [   1    2    0]]
