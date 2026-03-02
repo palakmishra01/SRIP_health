@@ -154,10 +154,10 @@ def main():
     # if output directory doesn't exist
     os.makedirs(args.output_directory, exist_ok=True)
 
-    # Define output file path for the pickled dataset
+    # output file path for the pickled dataset
     output_file_path = os.path.join(args.output_directory, 'processed_dataset.pkl')
 
-    # Save the processed_windows list to a pickle file
+    # Save list to a pickle file
     with open(output_file_path, 'wb') as f:
         pickle.dump(processed_windows, f)
 
